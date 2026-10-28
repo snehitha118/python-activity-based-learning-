@@ -26,7 +26,7 @@ Electricity consumption varies from month to month. Monitoring electricity usage
 10. Display the analysis results.
 
 
- 3.flowchart:
+ 3.Flowchart:
    
 
    ...
@@ -68,7 +68,7 @@ Enter electricity units for month 2: 250
 
 Enter electricity units for month 3: 180
 
-5.sample output:
+5.Sample output:
 
 ===== MONTHLY ELECTRICITY USAGE =====
 
