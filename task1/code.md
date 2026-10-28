@@ -23,7 +23,7 @@ Step 8: Classify the result as Excellent, Good, or Needs Improvement.
 Step 9: Stop the program.
 
 3.Flowchart:
-
+...
     A([START]) --> B[/Input Student Name and Marks/]
     
     B --> C[Calculate Average Marks]
@@ -47,6 +47,7 @@ Step 9: Stop the program.
     I --> J[/Display Average Marks and Overall Result/]
     
     J --> K([STOP])
+    ...
 
 4.Sample input:
 
