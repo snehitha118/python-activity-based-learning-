@@ -1,1 +1,24 @@
+MULTI-PRODUCT SHOPPING BUDGET CONSTRAINT
+
+1. Problem Statement
+
+Develop a Python program to evaluate a shopping basket containing multiple products and quantities. Apply discount conditions, calculate the total shopping cost, compare it with a fixed budget, and determine which purchases must be reduced to remain within the budget
+
+
+Algorithm
+
+1. Start the program.
+2. Initialize the product names, prices, and quantities.
+3. Enter the available shopping budget.
+4. Calculate the cost of each product by multiplying its price by its quantity.
+5. Calculate the total shopping cost.
+6. Check the discount conditions and apply the appropriate discount.
+7. Calculate the final cost after applying the discount.
+8. Compare the final cost with the available budget.
+9. If the final cost exceeds the budget, identify products whose quantities can be reduced.
+10. Display the final shopping cost and budget status.
+11. Stop the program.
+
+
+
 
