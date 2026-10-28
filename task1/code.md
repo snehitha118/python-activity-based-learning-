@@ -40,12 +40,12 @@ Step 9: Stop the program.
     I --> J[/Display Average Marks and Overall Result/]
     J --> K([STOP])
 
-4.Sample input
+4.Sample input:
 Enter marks for Test 1: 60
 Enter marks for Test 2: 70
 Enter marks for Test 3: 80
 
-5.Sample output
+5.Sample output:
 Student Performance Trend Analysis
 
 Test 1 Marks: 60
