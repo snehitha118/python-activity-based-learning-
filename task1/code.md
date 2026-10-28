@@ -10,7 +10,7 @@ Programming Language:Python
 1.Problem Statement:
 The aim of this project is to analyze a student's performance in three tests. The program accepts the student's name and marks in three tests, calculates the average marks, identifies the performance trend as improving, declining, or stable, and displays the overall result
 
-2.Algorithm
+2.Algorithm:
 
 Step 1: Start the program.
 Step 2: Enter the student's name.
@@ -22,7 +22,7 @@ Step 7: Display Improving, Declining, or Stable.
 Step 8: Classify the result as Excellent, Good, or Needs Improvement.
 Step 9: Stop the program.
 
-3.Flowchart
+3.Flowchart:
     A([START]) --> B[/Input Student Name and Marks/]
     B --> C[Calculate Average Marks]
     C --> D{Is Test 3 > Test 1?}
