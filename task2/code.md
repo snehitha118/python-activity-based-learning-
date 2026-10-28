@@ -53,11 +53,16 @@ Enter electricity units for month 3: 180
 sample output:
 
 ===== MONTHLY ELECTRICITY USAGE =====
+
+
 Month 1 : 120.0 units
+
 Month 2 : 250.0 units
+
 Month 3 : 180.0 units
 
 ===== USAGE ANALYSIS =====
+
 Total usage: 550.0 units
 Average usage: 183.33 units
 Usage level: Medium
