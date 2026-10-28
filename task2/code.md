@@ -26,19 +26,34 @@ Electricity consumption varies from month to month. Monitoring electricity usage
 
 ... 
    flowchart:
+
+   
     A([START]) --> B[Initialize empty list: units = []]
+    
     B --> C[/Input electricity units for 3 months/]
+    
     C --> D[Display monthly electricity usage]
+    
     D --> E[Calculate total and average usage]
+    
     E --> F{Check average usage}
+    
     F -->|Average < 100| G[Usage Level: Low]
+    
     F -->|Average < 300| H[Usage Level: Medium]
+    
     F -->|Average >= 300| I[Usage Level: High]
+    
     G --> J[Find highest usage and month]
+    
     H --> J
+    
     I --> J
+    
     J --> K[Display analysis report]
+    
     K --> L([STOP])
+    
     ...
 
     
