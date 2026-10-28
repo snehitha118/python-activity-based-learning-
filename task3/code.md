@@ -23,7 +23,7 @@ Managing personal expenses is important for understanding spending habits and co
 11. Display the analysis results.
 12. Stop the program.
 
-13. 3.flowchart:
+13. 3.Flowchart:
 
 14. ...
     A([START]) --> B[/Input Student Name and Expenses/]
@@ -43,8 +43,7 @@ Managing personal expenses is important for understanding spending habits and co
     G --> H([STOP])
 
     ...
-    
-    4.sample input:
+4.Sample input:
 
    Enter the number of expenses: 3
    
@@ -60,7 +59,7 @@ Enter expense category: Shopping
 
 Enter expense amount: 800
 
-5.sample output:
+5.Sample output:
 
 ===== PERSONAL EXPENSE DETAILS =====
 
