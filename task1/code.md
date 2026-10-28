@@ -23,31 +23,22 @@ Step 8: Classify the result as Excellent, Good, or Needs Improvement.
 Step 9: Stop the program.
 
 3.Flowchart
-START
-  |
-  v
-Input student marks for each test
-  |
-  v
-Calculate average marks
-  |
-  v
-Compare current marks with previous marks
-  |
-  v
-Are marks increasing?
-  |              \
- Yes              No
-  |                |
-  v                v
-Display Improving  Check whether marks are decreasing
-Performance        or remaining the same
-  |                |
-  v                v
-Display study performance trend
-  |
-  v
-END
+    A([START]) --> B[/Input Student Name and Marks/]
+    B --> C[Calculate Average Marks]
+    C --> D{Is Test 3 > Test 1?}
+
+    D -- Yes --> E[/Display "Improving"/]
+    D -- No --> F{Is Test 3 < Test 1?}
+
+    F -- Yes --> G[/Display "Declining"/]
+    F -- No --> H[/Display "Stable"/]
+
+    E --> I[Classify Overall Result]
+    G --> I
+    H --> I
+
+    I --> J[/Display Average Marks and Overall Result/]
+    J --> K([STOP])
 
 4.Sample input
 Enter marks for Test 1: 60
