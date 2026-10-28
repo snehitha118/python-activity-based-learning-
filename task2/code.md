@@ -9,7 +9,7 @@ Subject: Python Programming
 Programming language: Python
 
 1. Problem Statement:
-2. 
+ 
 Electricity consumption varies from month to month. Monitoring electricity usage helps users understand their consumption patterns and avoid unnecessary usage. The aim of this project is to develop a Python program that records electricity usage for three months, calculates the total and average consumption, classifies usage as Low, Medium, or High, and identifies the month with the highest electricity consumption.
 
 2.Alogorithm:
@@ -26,7 +26,7 @@ Electricity consumption varies from month to month. Monitoring electricity usage
 10. Display the analysis results.
 
 
-   flowchart:
+  3. flowchart:
    
 
    ...
@@ -60,7 +60,7 @@ Electricity consumption varies from month to month. Monitoring electricity usage
     ...
 
     
-Sample input:
+4.Sample input:
 
   Enter electricity units for month 1: 120
   
@@ -68,7 +68,7 @@ Enter electricity units for month 2: 250
 
 Enter electricity units for month 3: 180
 
-sample output:
+5.sample output:
 
 ===== MONTHLY ELECTRICITY USAGE =====
 
