@@ -29,6 +29,7 @@ Electricity consumption varies from month to month. Monitoring electricity usage
    
 
    ...
+   
     A([START]) --> B[Initialize empty list: units = []]
     
     B --> C[/Input electricity units for 3 months/]
