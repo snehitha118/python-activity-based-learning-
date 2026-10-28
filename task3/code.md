@@ -22,6 +22,8 @@ Managing personal expenses is important for understanding spending habits and co
 12. Stop the program.
 
 13. 3.flowchart:
+
+14. 
     A([START]) --> B[/Input Student Name and Expenses/]
     B --> C[Calculate Total Expenses]
     C --> D{Are Expenses Within Budget?}
@@ -32,20 +34,42 @@ Managing personal expenses is important for understanding spending habits and co
     G --> H([STOP])
 
     4.Sample input:
+    
     Enter Student Name: Snehitha
+
+    
 Enter Monthly Budget: 5000
+
+
 Enter Food Expenses: 2000
+
+
 Enter Travel Expenses: 1000
+
+
 Enter Study Expenses: 1500
+
+
 Enter Other Expenses: 500
 
+
+
 5.Sample output:
+
+
 Student Expenses Analysis
 
 Student Name: Snehitha
+
 Monthly Budget: ₹5000
+
+
 Total Expenses: ₹5000
+
+
 Remaining Budget: ₹0
+
+
 Budget Status: Within Budget
 
     
