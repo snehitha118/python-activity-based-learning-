@@ -24,35 +24,41 @@ Electricity consumption varies from month to month. Monitoring electricity usage
 9. Identify the highest electricity usage and its corresponding month.
 10. Display the analysis results.
 
-11. 3.flowchart:
-12. 
-    A([START]) --> B[/Input Customer Name and Units Consumed/]
-    B --> C{Are Units Less Than or Equal to 100?}
+11. 
+   flowchart:
+    A([START]) --> B[Initialize empty list: units = []]
+    B --> C[/Input electricity units for 3 months/]
+    C --> D[Display monthly electricity usage]
+    D --> E[Calculate total and average usage]
+    E --> F{Check average usage}
+    F -->|Average < 100| G[Usage Level: Low]
+    F -->|Average < 300| H[Usage Level: Medium]
+    F -->|Average >= 300| I[Usage Level: High]
+    G --> J[Find highest usage and month]
+    H --> J
+    I --> J
+    J --> K[Display analysis report]
+    K --> L([STOP])
+Sample input:
 
-    C -- Yes --> D[Calculate Bill Using First Slab Rate]
-    C -- No --> E{Are Units Less Than or Equal to 200?}
+  Enter electricity units for month 1: 120
+  
+Enter electricity units for month 2: 250
 
-    E -- Yes --> F[Calculate Bill Using Second Slab Rate]
-    E -- No --> G[Calculate Bill Using Higher Slab Rates]
+Enter electricity units for month 3: 180
 
-    D --> H[Calculate Total Electricity Bill]
-    F --> H
-    G --> H
+sample output:
 
-    H --> I[/Display Customer Name, Units and Total Bill/]
-    I --> J([STOP])
+===== MONTHLY ELECTRICITY USAGE =====
+Month 1 : 120.0 units
+Month 2 : 250.0 units
+Month 3 : 180.0 units
 
-    4.Sample input:
-    Enter Customer Name: Snehitha
-Enter Units Consumed: 150
+===== USAGE ANALYSIS =====
+Total usage: 550.0 units
+Average usage: 183.33 units
+Usage level: Medium
+Highest usage: 250.0 units
+Month with highest usage: Month 2
 
-5.sample output:
-Electricity Bill Analysis
-
-Customer Name: Snehitha
-Units Consumed: 150
-Total Electricity Bill: ₹450
-
-    
-14. Stop the program.
-
+Analysis completed successfully!
