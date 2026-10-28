@@ -41,18 +41,31 @@ Step 9: Stop the program.
     J --> K([STOP])
 
 4.Sample input:
+
 Enter marks for Test 1: 60
+
 Enter marks for Test 2: 70
+
 Enter marks for Test 3: 80
 
 5.Sample output:
-Student Performance Trend Analysis
+STUDENT PERFORMANCE TREND ANALYSIS
 
-Test 1 Marks: 60
-Test 2 Marks: 70
-Test 3 Marks: 80
+----- PERFORMANCE REPORT -----
+
+Student Name: Snehitha
+
+Test 1 Marks: 60.0
+
+Test 2 Marks: 70.0
+
+Test 3 Marks: 80.0
 
 Average Marks: 70.0
+
 Performance Trend: Improving
+
+Overall Result: Good
+
 
 
