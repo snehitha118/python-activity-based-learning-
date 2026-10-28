@@ -25,53 +25,59 @@ Managing personal expenses is important for understanding spending habits and co
 
 14. 
     A([START]) --> B[/Input Student Name and Expenses/]
+    
     B --> C[Calculate Total Expenses]
+    
     C --> D{Are Expenses Within Budget?}
+    
     D -- Yes --> E[/Display "Within Budget"/]
+    
     D -- No --> F[/Display "Over Budget"/]
+    
     E --> G[/Display Total Expenses and Budget Status/]
+    
     F --> G
+    
     G --> H([STOP])
-
-    4.Sample input:
     
-    Enter Student Name: Snehitha
+    sample input:
 
-    
-Enter Monthly Budget: 5000
+   Enter the number of expenses: 3
+   
+Enter expense category: Food
 
+Enter expense amount: 250
 
-Enter Food Expenses: 2000
+Enter expense category: Transport
 
+Enter expense amount: 150
 
-Enter Travel Expenses: 1000
+Enter expense category: Shopping
 
+Enter expense amount: 800
 
-Enter Study Expenses: 1500
+sample output:
 
+===== PERSONAL EXPENSE DETAILS =====
 
-Enter Other Expenses: 500
+Food : 250.0
 
+Transport : 150.0
 
+Shopping : 800.0
 
-5.Sample output:
+===== EXPENSE ANALYSIS =====
 
+Total expenses: 1200.0
 
-Student Expenses Analysis
+Average expense: 400.0
 
-Student Name: Snehitha
+Highest expense category: Shopping
 
-Monthly Budget: ₹5000
+Highest expense amount: 800.0
 
+Spending level: Medium
 
-Total Expenses: ₹5000
-
-
-Remaining Budget: ₹0
-
-
-Budget Status: Within Budget
-
-    
+Analysis completed successfully!
 
 
