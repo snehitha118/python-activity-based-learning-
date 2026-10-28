@@ -26,7 +26,7 @@ Electricity consumption varies from month to month. Monitoring electricity usage
 10. Display the analysis results.
 
 
-3. flowchart:
+ 3.flowchart:
    
 
    ...
