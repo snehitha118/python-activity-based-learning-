@@ -23,21 +23,29 @@ Step 8: Classify the result as Excellent, Good, or Needs Improvement.
 Step 9: Stop the program.
 
 3.Flowchart:
+
     A([START]) --> B[/Input Student Name and Marks/]
+    
     B --> C[Calculate Average Marks]
+    
     C --> D{Is Test 3 > Test 1?}
 
     D -- Yes --> E[/Display "Improving"/]
+    
     D -- No --> F{Is Test 3 < Test 1?}
 
     F -- Yes --> G[/Display "Declining"/]
+    
     F -- No --> H[/Display "Stable"/]
 
     E --> I[Classify Overall Result]
+    
     G --> I
+    
     H --> I
 
     I --> J[/Display Average Marks and Overall Result/]
+    
     J --> K([STOP])
 
 4.Sample input:
@@ -49,6 +57,7 @@ Enter marks for Test 2: 70
 Enter marks for Test 3: 80
 
 5.Sample output:
+
 STUDENT PERFORMANCE TREND ANALYSIS
 
 ----- PERFORMANCE REPORT -----
