@@ -1,11 +1,11 @@
 EMPLOYEE SALARY AND BONUS CALCULATION
 
-1. Problem Statement
+1. Problem Statement:
 
 Develop a Python program to calculate an employee's monthly salary by considering basic salary, allowances, deductions, and performance-based bonuses. The program should calculate the final salary and display a clear salary summary.
 
 
-2. Algorithm
+2. Algorithm:
 
 Step 1: Start the program.
 
@@ -33,6 +33,70 @@ Step 9: Calculate the final salary by subtracting deductions from the gross sala
 Step 10: Display the employee's name, allowances, bonus, deductions, and final monthly salary.
 
 Step 11: Stop the program.
+
+3.Flowchart:
+
+    A([START]) --> B[/Input employee name, basic salary and performance rating/]
+    
+    B --> C{Salary >= 0 and rating between 1 and 5?}
+    
+    C -->|No| D[Display invalid input message]
+    
+    D --> Z([STOP])
+    
+    C -->|Yes| E[Calculate HRA, travel allowance and deductions]
+    
+    E --> F{Performance rating?}
+    
+    F -->|5| G[Bonus = 15% of basic salary]
+    
+    F -->|4| H[Bonus = 10% of basic salary]
+    
+    F -->|3| I[Bonus = 5% of basic salary]
+    
+    F -->|1 or 2| J[Bonus = 0]
+    
+    G --> K[Calculate gross salary]
+    
+    H --> K
+    
+    I --> K
+    
+    J --> K
+    
+    K --> L[Calculate final salary after deductions]
+    
+    L --> M[Display salary summary]
+    
+    M --> Z
+    
+4.Sample input:
+
+    Enter employee name: Ravi
+    
+Enter basic monthly salary: 30000
+
+Enter performance rating (1-5): 5
+
+5.Sample output:
+
+----- Salary Summary -----
+
+Employee Name: Ravi
+
+Basic Salary: Rs. 30000.0
+
+HRA: Rs. 6000.0
+
+Travel Allowance: Rs. 3000.0
+
+Bonus: Rs. 4500.0
+
+Deductions: Rs. 1500.0
+
+Final Monthly Salary: Rs. 42000.0
+
+
 
 
 
