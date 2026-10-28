@@ -24,10 +24,11 @@ Electricity consumption varies from month to month. Monitoring electricity usage
 9. Identify the highest electricity usage and its corresponding month.
 10. Display the analysis results.
 
-... 
-   flowchart:
 
+   flowchart:
    
+
+   ...
     A([START]) --> B[Initialize empty list: units = []]
     
     B --> C[/Input electricity units for 3 months/]
