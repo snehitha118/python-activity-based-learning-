@@ -5,9 +5,11 @@ Subject: Python Programmning
 Programming Language: Python
 
 1.Problem statement:
+
 Managing personal expenses is important for understanding spending habits and controlling unnecessary expenditure. Many people find it difficult to track their daily expenses and identify where their money is spent. The aim of this project is to develop a Python program that records expenses in different categories, calculates the total and average expenses, identifies the highest expense, and classifies spending as Low, Medium, or High.
 
 2.Algorithm:
+
 1. Start the program.
 2. Create empty lists to store expense categories and amounts.
 3. Enter the number of expenses.
@@ -23,7 +25,7 @@ Managing personal expenses is important for understanding spending habits and co
 
 13. 3.flowchart:
 
-14. 
+14. ...
     A([START]) --> B[/Input Student Name and Expenses/]
     
     B --> C[Calculate Total Expenses]
@@ -39,8 +41,10 @@ Managing personal expenses is important for understanding spending habits and co
     F --> G
     
     G --> H([STOP])
+
+    ...
     
-    sample input:
+    4.sample input:
 
    Enter the number of expenses: 3
    
@@ -56,7 +60,7 @@ Enter expense category: Shopping
 
 Enter expense amount: 800
 
-sample output:
+5.sample output:
 
 ===== PERSONAL EXPENSE DETAILS =====
 
